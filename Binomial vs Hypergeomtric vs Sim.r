@@ -37,12 +37,19 @@ table(colours)                  #correct proportion of red and non red balls
 reps<-5000
 sample_size<-0.1*n
 
-colour_proportion<-numeric(length(sample))
+colour_proportion<-numeric(reps)
 
 for(i in 1:reps) {
-  balls<-sample(1:n, sample_size, replace = FALSE)
+  balls<- sample(1:n, sample_size, replace = FALSE)
+  sum_of_red_balls<- sum(colours[balls]== "red ball")
   
+  if(sum_of_red_balls == 0| sum_of_red_balls == 1|sum_of_red_balls == 2) {
+    colour_proportion[i]<-1
+  } else {
+    colour_proportion[i]<-0
+  } 
 }
+mean(colour_proportion)
 
 
 
