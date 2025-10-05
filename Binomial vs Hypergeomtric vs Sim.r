@@ -5,7 +5,7 @@ help(pbinom)
 help(phyper)
 help(sample)
 
-#PART 1- WITH REPLACEMENT ---------------------------------------------------------------------------------------
+#PART #1 - BINOMIAL AND HYPERGEOMETRIC ---------------------------------------------------------------------------------------
 #COMPARING BINOMIAL TO HYPER GEOMETRIC AT n=100
 #PARTITIONING INTO RED AND NOT RED BALLS 
 n_pop<- c(100,1000,5000,10000)
@@ -25,7 +25,7 @@ for (i in seq_along(n_pop)) {
   hyper_prob[i]<-phyper(threshold, red, non_red,sample)
 }
 
-#PART #2-BY SIMULATION---------------------------------------------------------------------------------------
+#PART #2 - BY SIMULATION---------------------------------------------------------------------------------------
 n<- 100
 red_balls <-sample(1:n, 0.25*n, replace = FALSE)
 colours<- rep("non red ball",n) #repeats non red ball 100 times 
