@@ -31,7 +31,8 @@ Created to compare the values of probabilites with each function and the simulat
 Shows how our probability changes between each method that we use to calculate probability 
 
  ## PROJECT STRUCTURE      
-[Simulation Binomial Hypergoemetric Simulated Probability](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-)/  
+[Simulation Binomial Hypergoemetric Simulated Probability](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-)/    
+├── [Tbale of comparison](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-/blob/main/Binom%20vs%20Hyper%20vs%20Sim%20.png)/
 ├── [Compiled pdf](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-/blob/main/Binom-vs-Hyper-vs-Sim.pdf)/      
 ├──[Binom vs Hyper vs Simulation (R)](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-/blob/main/Binomial%20vs%20Hypergeomtric%20vs%20Sim.r)  
 └── [README](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-/blob/main/README.md)/  
