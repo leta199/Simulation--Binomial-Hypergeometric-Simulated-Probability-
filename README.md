@@ -3,7 +3,11 @@ Uncovering how binomial, hypergeometric and simulated probability compare when p
 
 ## HOW IT'S MADE 
 Languages used: R verion (4.5.1)    
-Environement: RStudio  
+Environement: RStudio 
+
+[![Language: R](https://img.shields.io/badge/Language-R-276DC3.svg?style=flat-square)](https://www.r-project.org/)
+[![Built with RStudio](https://img.shields.io/badge/IDE-RStudio-75AADB?style=for‐the‐badge&logo=rstudio&logoColor=white)](https://www.rstudio.com/)
+![Status](https://img.shields.io/badge/Status-Completed-lightgrey)
 
 ## METHODS AND TECHNIQUES  
 **Binomial and Hypergeometric probability**   
