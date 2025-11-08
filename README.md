@@ -28,13 +28,15 @@ Assigning 1 if red balls are equal to or less than 0.02*n red balls and 0 if not
 Assing the average of 5000 repititions to overall probability. 
 
 ## VISUALISATIONS 
+
 **Dataframe**   
 Created to compare the values of probabilites with each function and the simulation.   
 
 **Line graph**   
 Shows how our probability changes between each method that we use to calculate probability. 
 
- ## PROJECT STRUCTURE      
+ ## PROJECT STRUCTURE   
+ 
 [Simulation Binomial Hypergoemetric Simulated Probability](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-)/    
 ├── [Tbale of comparison](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-/blob/main/Binom%20vs%20Hyper%20vs%20Sim%20.png)/
 ├── [Compiled pdf](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-/blob/main/Binom-vs-Hyper-vs-Sim.pdf)/      
