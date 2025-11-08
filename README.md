@@ -35,7 +35,7 @@ Created to compare the values of probabilites with each function and the simulat
 
 **Line graph**   
 Shows how our probability changes between each method that we use to calculate probability. 
-
+<img width="1440" height="874" alt="Image" src="https://github.com/user-attachments/assets/f5d17a2a-14fe-4ced-b64b-03e1148721d7" />
  ## PROJECT STRUCTURE   
  
 [Simulation Binomial Hypergoemetric Simulated Probability](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-)/    
