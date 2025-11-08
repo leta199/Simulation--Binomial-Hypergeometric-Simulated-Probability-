@@ -1,4 +1,4 @@
-# Simulation--Binomial-Hypergeometric-Simulated-Probability-
+# Simulation - Binomial Hypergeometric Simulated Probability 
 Uncovering how binomial, hypergeometric and simulated probability compare when picking red balls in a sample from a large population 
 
 ## HOW IT'S MADE 
@@ -30,7 +30,8 @@ Assing the average of 5000 repititions to overall probability.
 ## VISUALISATIONS 
 
 **Dataframe**   
-Created to compare the values of probabilites with each function and the simulation.   
+Created to compare the values of probabilites with each function and the simulation.  
+<img width="480" height="109" alt="Image" src="https://github.com/user-attachments/assets/c7dad1fa-7a27-4f88-b6bd-bc07a47d961a" />
 
 **Line graph**   
 Shows how our probability changes between each method that we use to calculate probability. 
