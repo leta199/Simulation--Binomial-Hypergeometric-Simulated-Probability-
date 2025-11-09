@@ -55,7 +55,7 @@ for(i in 1:reps) {
   balls<- sample(1:n, sample_size, replace = FALSE)
   sum_of_red_balls<- sum(colours[balls]== "red ball")
 
-#if samples less than or equla to 0.02*n red balls, success and 1 
+#if samples less than or equal to 0.02*n red balls, success and 1 
   if(sum_of_red_balls <= 0.02*n) {
     colour_proportion[i]<-1  #assigning success or failure to colour_proportion vector 
   } else {
@@ -76,10 +76,15 @@ results<- data.frame(
 #Let us also create a combined line graph to show how close the porbabilities are to each other at each trial
 plot(1:4, binom_prob, type = "l", col = "maroon",
      xlab= "Number of trials",
-     ylab= "Exact or simulated probability",
-     main = "Comparison of Binomial, Hypergoemtirc  and Simulated  proababilties")
+     ylab= "Probability",
+     main = "Comparison of Binomial, Hypergeometric  and Simulated  probabilties")
 lines(1:4, hyper_prob, type = "l", col = "turquoise")
 lines(1:4, overall_prob, type = "l", col= "antiquewhite4")
+legend("topright",
+       legend = c("Simulated"," Hypergeometric", "Binomial"),
+       col = c("maroon", "turquoise","antiquewhite4"),
+       lty = c(1,1,1)
+       )
 
 #CONCULSION------------------------------------------------------------------------------------------------------
 #Of course as our population increases the probability of having less than or equal to 0.02*n decreases.
