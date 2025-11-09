@@ -1,5 +1,10 @@
-# Simulation Binomial Hypergeometric Simulated Probability 
-Uncovering how binomial, hypergeometric and simulated probability compare when picking red balls in a sample from a large population 
+# Simulation -  Binomial vs Hypergeometric vs  Simulated Probability 
+Uncovering how binomial, hypergeometric and simulated probability compare when picking red balls in a sample from a large population.
+
+This project aims create an experiment that can simulate binomial and hypergeometric probavikites using stochastic methods and determine the level of precision and accuracy that can be generated. This notebook will:
+
+- Use `pbinom` and `phyper` function to aproximate probability.
+- Approximate probavility in question using stochastic approximation in base R.
 
 ## HOW IT'S MADE 
 Languages used: R verion (4.5.1)    
@@ -36,11 +41,12 @@ Created to compare the values of probabilites with each function and the simulat
 **Line graph**   
 Shows how our probability changes between each method that we use to calculate probability. 
 <img width="1440" height="874" alt="Image" src="https://github.com/user-attachments/assets/f5d17a2a-14fe-4ced-b64b-03e1148721d7" />
+
  ## PROJECT STRUCTURE   
  
-[Simulation Binomial Hypergoemetric Simulated Probability](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-)     
-├── [Table of comparison](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-/blob/main/Binom%20vs%20Hyper%20vs%20Sim%20.png)  
-├── [Compiled pdf](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-/blob/main/Binom-vs-Hyper-vs-Sim.pdf)        
+|[Simulation Binomial Hypergoemetric Simulated Probability](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-)     
+├──[Table of comparison](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-/blob/main/Binom%20vs%20Hyper%20vs%20Sim%20.png)  
+├──[Compiled pdf](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-/blob/main/Binom-vs-Hyper-vs-Sim.pdf)        
 ├──[Binom vs Hyper vs Simulation (R)](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-/blob/main/Binomial%20vs%20Hypergeomtric%20vs%20Sim.r)  
 └── [README](https://github.com/leta199/Simulation--Binomial-Hypergeometric-Simulated-Probability-/blob/main/README.md)  
 
